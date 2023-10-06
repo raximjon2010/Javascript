@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Rahimjon",
+        "surnamme": "Xujaqulov",
+        "age": 13,
+        "hobbies": "Web Programera"
+    },
+    {
+        "name": "Kamron",
+        "surname": "Toshpulatov",
+        "age": 13,
+        "hobbies":"Web Programera"
+    },
+    {
+        "name": "Muxriddin",
+        "surname": "Mardiev",
+        "age": 14,
+        "hobbies": "football"
+    }
+] 
