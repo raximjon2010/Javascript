@@ -9,7 +9,7 @@
 // } else {
 //     console.log('else');
 // } // Bu yera  condeshin true yoki false bolishini kutadi true boldi demak console.logni ichidagi malumotni chiqazib berad
-// agar false bolsa keyingisini tekshiradi bu ham false bolsa keyingini tekshiradi u true demak shuni oladi agar false
+// agar false bolsa keyingisini tekshiradi bu ham false bolsa keyingini tekshiradi u truemi demak shuni oladi agar false
 // bolsa hech qaysi shart qanotlantirmasa elseni ichidagi kodni oqiydi va shuni chiqazib beradi.
 
 // var car = 'Malibu';
@@ -52,10 +52,10 @@
 // else if(age < 5){
 //     console.log("siz hali bolasiz");
 // }
-// else if(age <= 18 && age < 5){
+// else if(age <= 18){
 //     console.log("siz ovoz bera olmaysiz");
 // }
-// buni biz order desak boaldi yani ketma ketligi orderi yuqmi ishlamay qoladi. Biz shuning uchun kichkina raqamdan 
+// // buni biz order desak boaldi yani ketma ketligi orderi yuqmi ishlamay qoladi. Biz shuning uchun kichkina raqamdan 
 // boshlab yozishimiz kerak.
 
 // let login = 'rahimjon';
@@ -72,7 +72,7 @@
 
 
 // switch/case - Switch bu xuddi if elsega oxshaydi if else nima vazifa bajarsa bu ham hudii shu vazifani bajaradi
-//  let kun = 2; // ===
+//  let kun = "2"; // ===
 //  switch (kun) {
 //      case 1: console.log('Dushanba'); break;
 //      case 2: console.log("Seashanba"); break;
@@ -81,7 +81,8 @@
 //      case 5: console.log("Juma");break;
 //      case 6: console.log("Shanba");break ;
 //      case 7: console.log("Yakshanba"); break;
-//  }
+//     //  default : console.log("eror");
+// }
  // Switch shu tarizda yoziladi bunda break quyib ketishimiz shart chunki keyingi kodga otib ketmaslik uchun 
  // Agar break quymasak undan keyingi kodlarni ham ishlatib tashlaydi. 
 
@@ -105,7 +106,7 @@
 
 // const age = 17;
 
-// const citizen = age >= 18 ? 'ovoz bera oladi!' : 'ovoz bera olmaydi!';
+// const citizen = age >= 18 ? 'ovoz bera oladi!' : 'ovoz  bera olmaydi!';
 
 // console.log(citizen);
 

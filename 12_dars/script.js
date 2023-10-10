@@ -28,11 +28,11 @@
 // let toNumber = sorted.join("");
 // console.log(typeof Number(toNumber));
 // let arr = [1,[3,[5],],[10, [100]]];
-
+// console.log(arr);
 // let flatted = arr.flat(Infinity);
-// let reduced = flatted.reduce((a, b) => a + b);
-
-// console.log(typeof reduced);
+// let reduced = arr.reduce((a, b) => a + b);
+// console.log(flatted);
+// console.log( reduced);
 
 
 

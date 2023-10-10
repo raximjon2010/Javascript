@@ -29,10 +29,10 @@
 // }
 
 // console.log(num); // 10chiqadi chunki bizda function qachon chaqirilsa keyin ishlaydi 
-// myFunc(); // Bu faqat chaqirildi bunda ham 15 chiqmedi qachonki endi biz console.log()ni number qilsak 
+// myFunc(); // Bu faqat chaqirildi bunda ham 15 chiqmedi qachonki endi biz console.log()ni num qilsak 
 // // shunda bizarga bizga update bolgan qiymat keladi
 // console.log(num); //15 chiqadi biz myFunct() dan keyin yozdik shuning uchun.
-// keyin yana biz qiymatni update qilsakgina 
+// keyin yana biz qiymatni update qilsakgina biz uni tashqarida chaqira olamiz bulmasa yuq
 // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 // const num = 10; 
 
@@ -73,20 +73,20 @@
 // ichidagi hohlagan malumotni olishimiz mumkun edi Biz endi shu objectdan emas boshqa bir objni olmoqchi bolsak
 // call apple bind dan foydalansak boladi.
 
-let obj1 = {
-    id: 1,
-    myFunc(age,status){
-        console.log(this.name, `age: ${age} status: ${status}`);
-    }
-}
-let obj2 = {
-    name: "Rahimjon"
-}
+// let obj1 = {
+//     id: 1,
+//     myFunc(age,status){
+//         console.log(this.name, `age: ${age} status: ${status}`);
+//     }
+// }
+// let obj2 = {
+//     name: "Rahimjon"
+// }
 // obj1.myFunc.call(obj2, 13,"Developer"); // biz bu yerda parametr ham argument berib qusib quysak ham boladi
 // Biz shu yulda boshqa bir objectga yunaltirsak boladi
 
 // obj1.myFunc.apply(obj2,[ 25, "Developer"]) // Biz buni call daqa yoza olmaymiz bunda eror beradi biz argument yozadigan 
-// vatimiz buni biz array qavsiga o'rab quyishimiz kerak.
+// vaqtimiz buni biz array qavsiga o'rab quyishimiz kerak.
 
 // obj1.myFunc.bind(obj2, 25, "Rahimjon")() // Bu ham xuddi call dek ishlaydi syntaxt shunday lekin bunga () quyib ketishimiz kerak
 // let bined = obj1.myFunc.bind(obj2)
@@ -97,8 +97,8 @@ let obj2 = {
 
 // let arr = [1, 2, 3, 4, 5];
 // let str = 'webbrain';
-// for(let letters of str){
-//     console.log(letters);
+// for(let letters of arr){
+//     console.log(arr);
 // } // Biz buni array for lop desak boladi biz array ichidagi malumot nechtaligini bilsak boladi 
 // keyin arrayni ozini nomini yozsak malumoti qancha bolsa uni hammasini bitta arrayga solib shuncha qilib chiqariab beradi
 // buni string bilan ishlatsaa uni harflarini alohida qilib chiqarsa boladi for loop ni ozida bunga ozroq kod yozish kerak edi
@@ -129,4 +129,11 @@ let obj2 = {
 
 // let str = 'CABDCA';
 
-// terminal => A
+// // terminal => A
+// let count = {}
+
+// for (let i = 0; i < str.length; i++) {
+//     let element = str[i];
+//         count[element] = (count[element] | 0 ) + 1
+// }
+// console.log(count);

@@ -143,7 +143,7 @@
 
 // let arr = ["string", 12, null, undefined, Symbol,Boolean,{name: "rahim"}, [12,"xujaqulov"]]
 // let newArr = new Array(12,"rahimjon", null , undefined , )
-// // console.log(arr.length); // bu sakkiz chiqaradi chunki buni ichdagi malumotlari soni 8 ta
+// console.log(arr.lengt ); // bu sakkiz chiqaradi chunki buni ichdagi malumotlari soni 8 ta
 // console.log(newArr.length); //bu 4 hiqaradi chunki buni ichidagi malumotlari soni 4 ta
 // console.log(arr[0]); index doim 0 dan boshlanadi shuning uchun bizga 0 inchi malumotni chiqarib beradi
 // console.log(arr[2]);
@@ -165,7 +165,6 @@
 // let str = 'WBA';
 
 // arr2.push("Webrain") //=> oxiridan qushadi
-
 // / arr2.pop() // => oxiridan uchiradi
 // arr2.unshift("Webbrian") // bu boshiga qushadi
 // arr2.shift()

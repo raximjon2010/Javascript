@@ -71,7 +71,7 @@
 // ---------------------------------------find()---------------------------------------------------
 // Bu array ichidan maumotlarni qidiradi
 // let arr =  [
-//     123, 1,2,3,4,5,6,7,8,9,10000, "200"
+//     123, 1,2,3,4,5,6,7,8,9,10000, "200"4
 //  ]
 // let fined = arr.find((value,index , array)) Bu ham uchtta qiymat oladi qiymatlarni return qilsak odatdagidek ishlaydi 
 //Keyin buni vazifasi boshqa

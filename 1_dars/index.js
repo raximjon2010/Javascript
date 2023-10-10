@@ -3,12 +3,6 @@
 // let n3 =1;
 // console.log(n1,n2,n3); // short hand
 
-
-
-
-
-
-
 // cd- change directory
 // cd..- Bu bitta orqaga qaytadi.
 // clear- Terminlarni tozalab beradi.
@@ -57,39 +51,11 @@
 // console.log(n1,n2,n3);
 
 // Malumot turlari- Xotirada joylashishi va qanday malumot olishiga qaran ikki turga bolinadi
-// Primitive - String, number, boolen, symbols bigint null, undifenid; bular primitive
+// Primitive - , numStringber, boolen, symbols bigint null, undifenid; bular primitive
 // callstack - faqat bitta qiymat oladi.
-// Nan Primitive - Object, Array, Function, Bular nan Prinitivega kiradi.
+// Nan Primitive - Object, Array, Function, Bular nan Primitivega kiradi.
 // callstackda ozida id saqlaydi heapda qiymat turadi heapdagi qiymat callstackda olib beradi
 // NaN Primitive ozida birdan ortiq malumot saqlaydi.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

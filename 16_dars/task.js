@@ -83,10 +83,10 @@
 // ===================================3 -task ====================================================
 // Curry functionda funksiya yozish
 // xabaralshish funksiyasi
-let Messages = (MyPhone) => {
-    if (MyPhone === "+998") {
-        console.log("UZB raqami:" ,MyPhone);
-    }
+// let Messages = (MyPhone) => {
+//     if (MyPhone === "+998") {
+//         console.log("UZB raqami:" ,MyPhone);
+//     }
     // if (HE === true) {
     //     return (HE) => {
 

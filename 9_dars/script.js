@@ -125,3 +125,6 @@
 // console.log(obj['surname']);
 // console.log(obj["full name"]);
 // console.log(obj["100"]);
+
+
+

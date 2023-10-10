@@ -77,51 +77,51 @@
 // }
 
 // ------------------------------ 8 - exam --------------------------------------------------------------------
-console.log("=========2 Karra=========");
+// console.log("=========2 Karra=========");
 
-for(i = 1 ; i <= 10; i++){
-    let karra2 = 2;
-    console.log(`${karra2} * ${i} = ` , karra2 * i );
-}
-console.log("==========3 Karra=========");
-for (i = 1 ; i <= 10 ; i++){
-    let karra3 = 3;
-    console.log(`${karra3} * ${i} = ` , karra3 * i);
-}
+// for(i = 1 ; i <= 10; i++){
+//     let karra2 = 2;
+//     console.log(`${karra2} * ${i} = ` , karra2 * i );
+// }
+// console.log("==========3 Karra=========");
+// for (i = 1 ; i <= 10 ; i++){
+//     let karra3 = 3;
+//     console.log(`${karra3} * ${i} = ` , karra3 * i);
+// }
 
-console.log("==========4 Karra==========");
+// console.log("==========4 Karra==========");
 
-for (i = 1 ; i <= 10 ; i++){    
-    let karra4 = 4;
-    console.log(`${karra4} * ${i} = ` , karra4 * i);
-}
-console.log("==========5 Karra==========");
+// for (i = 1 ; i <= 10 ; i++){    
+//     let karra4 = 4;
+//     console.log(`${karra4} * ${i} = ` , karra4 * i);
+// }
+// console.log("==========5 Karra==========");
 
-for (i = 1 ; i <= 10 ; i++){
-    let karra5 = 5;
-    console.log(`${karra5} * ${i} = `, karra5 * i);
-}
+// for (i = 1 ; i <= 10 ; i++){
+//     let karra5 = 5;
+//     console.log(`${karra5} * ${i} = `, karra5 * i);
+// }
 
-console.log("==========6 Karra==========")
-for(i = 1; i <= 10; i++){
-    let karra6 = 6;
-    console.log(`${karra6} * ${i} = `, karra6 * i );
-}
-console.log("==========7 Karra==========")
-for(i = 1 ; i <= 10 ; i++ ){
-    let karra7 = 7;
-    console.log(`${karra7} * ${i} = `, karra7 * i);
-}
-console.log("==========8 Karra==========")
-for ( i = 1 ; i <= 10; i++){
-    let karra8 = 8;
-    console.log(`${karra8} * ${i} = ` , karra8 * i);
-}
-console.log("==========9 Karra==========")
-for(i = 1 ; i <= 10 ; i++){
-    let karra9 = 9;
-    console.log(`${karra9} * ${i} = ` , karra9 * i);
-} 
+// console.log("==========6 Karra==========")
+// for(i = 1; i <= 10; i++){
+//     let karra6 = 6;
+//     console.log(`${karra6} * ${i} = `, karra6 * i );
+// }
+// console.log("==========7 Karra==========")
+// for(i = 1 ; i <= 10 ; i++ ){
+//     let karra7 = 7;
+//     console.log(`${karra7} * ${i} = `, karra7 * i);
+// }
+// console.log("==========8 Karra==========")
+// for ( i = 1 ; i <= 10; i++){
+//     let karra8 = 8;
+//     console.log(`${karra8} * ${i} = ` , karra8 * i);
+// }
+// console.log("==========9 Karra==========")
+// for(i = 1 ; i <= 10 ; i++){
+//     let karra9 = 9;
+//     console.log(`${karra9} * ${i} = ` , karra9 * i);
+// } 
 
 // Bu yerdan qaysini tekshirmoqchi bolsangiz command ochib tekshirishingiz mumkun Bu faqat kodlar 
 // aralashib ketmasligi uchun 

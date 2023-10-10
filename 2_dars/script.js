@@ -8,7 +8,7 @@
 // console.log(num1 - num2); // bu num1dan num2ni ayiryapti javob 11;
 // let num1 = 50;
 // let num2 = 39;
-// console.log(num1 * num2); bu num1ni num2 ga kopaytirib beradi Yani bu kopaytirish
+// console.log(num1 * num2); //bu num1ni num2 ga kopaytirib beradi Yani bu kopaytirish
 // uchun ishlatiladi.
 // let num1 = 10;
 // let num2 = 2;
@@ -19,7 +19,7 @@
 // 11ni 2ga bolsak 5 va 1 ta raqam ortiqcha shu qoldiq deyiladi va terminalga qoldiqni  
 // chiqaradi 
 // let num1 = 50;
-// num1 = num1 +12 // biz bu xolatda shu num1ni raqamini ozgartira olamiz lekin buni qisqa 
+// num1 = num1 + 12 // biz bu xolatda shu num1ni raqamini ozgartira olamiz lekin buni qisqa 
 // yollari ham bor.
 // num1 += 20; // bu yuqoridagini qisqartirma holati 
 // num1 ++; // bu xolat bitta qoshib quymoqchi bolsak ishlatamiz boshqa holatda ishlatib bolmaydi
@@ -55,8 +55,9 @@
 
 // Logical Operations: (&& va ||) bunda 2 ta qiymat bor OR va AND degan qiymatlari bor.
 // OR  bu bitta amal qoniqtirsa boldi bu true chiqaradi 
-// And - esa qachonki ikkkalsi ha mtrue bolsa keyin true qaytaradi.
+// And - esa qachonki ikkkalsi ham true bolsa keyin true qaytaradi.
 // console.log(DEREKTOR === "derektor bor" ||QOROVUL  === "qorovul bor");
+// console.log(Derektor === true && Qorovul === false);
 
 
 

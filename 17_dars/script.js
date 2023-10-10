@@ -251,24 +251,6 @@
 // console.log(typeof MyFunction); // endi biz functionni uzini yani functionni nomini typeof
 //  qilsak bu function qaytaradi
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // function Mashina(name, color) {
 //     this.name = name;
 //     this.color = color;

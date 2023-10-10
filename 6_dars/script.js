@@ -1,4 +1,4 @@
-// Break or continue
+// Break and continue
 // for (i = 1; i < 10; i++){
 //     if (i === 3){
 //         break
@@ -67,7 +67,7 @@
 //     }
 // }   bu kara kara jadvalini nestit loop da qilsa ham boladi.
 
-// for(i = 1 ; i <= 4; i++){
+// for(i = 1; i <= 4; i++){
 //     console.log("Orab turuvchi loop", i );
 
 //     for(j = 1 ; j < 4 ; j++){
@@ -82,7 +82,7 @@
 // i++ ni qiymatini birga oshiradi
 // while | do / whhile
 
-// while  - Bu huddi for loop ga oxshaydi for loop nima vazifa bajarsa bu ham huddi shu vazifani bajaradi
+// while - Bu huddi for loop ga oxshaydi for loop nima vazifa bajarsa bu ham huddi shu vazifani bajaradi
 // bularni kichkina farqi ham bor
 // let i = 1;
 // while(i < 10){

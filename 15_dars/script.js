@@ -12,7 +12,7 @@
 
 // const arr = [1,1,2,2,3,4,5]; // arr bu duplicate qilmaydi yaniy 2 ta 3 ta bir xil malumo bolsa hammasini chiqarad
 // const set = new Set([1,1,2,3,3,4,5]) // set esa 2 ta 3 ta nechta bolsa ham bir xil malumotni duplicate qiladi 1 ta qilib chiqarib beradi
-// set.add(100) // Bu new Set() ga malumot qushadi.
+// set.add( ) // Bu new Set() ga malumot qushadi.
 // set.add(101)
 // set.add("string")
 // set.add([6,7,8])
@@ -32,7 +32,7 @@
 // looping set values
 // let students = new Set(["Rahimjon", "Nozimjon", "Nursulton"])
 // for(let student of students){
-//     console.log(students); // New Set da faqat for loop bilan forEach ishlaydi map ishlamaydi
+//     console.log(students); // New Set da faqat for of bilan forEach ishlaydi map ishlamaydi
 // }
 // students.forEach((value,key) => {
 //     console.log(key);
@@ -56,9 +56,9 @@
 // console.log(weakset.has(sardorbek)); Bular tekshiradi huddi includesga oxshab bolsa true bolmasa false qaytaradi
 // ///////////////////////////////////
 // Arraydan setni farqlar:
-// New set bu Set(5) { 1, 2, 3, 4, 5 } shu xolatda qaytaradi yani nechta malumot borligini va bizga object ko'rinishida qaytarad.
+// New set bu Set(5) { 1, 2, 3, 4, 5 } shu xolatda qaytaradi yani nechta malumot borligini va bizga object ko'rinishida qaytaradi.
 // Bularni yana bitta farqi set faqat foreach va for/of da ishlaydi map da ishlamaydi array esa ishlaydi, New setni ichiga agar biz 2 ta va undan ortiq
-// bir xil malumot yozsak bu bittasini chiqarib beradi Arrray esa unday emas uning uchun set qilingan
+// bir xil malumot yozsak bu bittasini chiqarib beradi Arrray esa unday emas uning uchun set qilingan bolishi kerak
 // Yuz case da ishlamaydi bu array orniga faqatgina data structure
 // Keyin set tez ishlaydi arraydan 
 // Keyin set bu yunik qabul qiladi array esa qabul qilmaydi Arrayda bunday qilish uchun ozroq ish qilish kerak
@@ -66,9 +66,9 @@
 // Map
 // Bu huddi objectga oxshaydi bu ham key value qabul qiladi Buni objectdan xususiyatlari kop 
 // Buni bitta asosiy farqi map bu length korsatib turadi object unordered edi korsatmasdi 
-// Lekin buni ham index ni korib [] shu xolatda ololmaymiz lekin bu qanaqadir manoda unordrid deyiladi
+// Lekin buni ham index ni korib [] shu xolatda ololmaymiz lekin bu qanaqadir manoda ordrid deyiladi
 // let map = new Map()
-// map.set("phone", "black")
+// map.set("phone","black")
 // map.set("laptop", "silver")
 // map.set("football", "CR7")
 // map.set("hobby", "IT")
@@ -83,14 +83,14 @@
 // Biz edni delete orqali uchirib tashlasak boladi bu objectda ham bor edi 
 // map.clear() 
 // Bu ichiga hech qanaqa malumot olmaydi buni ozini shunday yozsak top toza qilib beradi mapimizi bu object yuq edi mapda bor
-// console.log(map.keys()); // Bu console.log() ni ichida yoziladi keyin bu keyslarini chiqarib beradi bu objectda yuq
+// console.log(map.keys()); // Bu console.log() ni ichida yoziladi keyin bu keyslarini chiqarib beradi bu objectda bor
 // console.log(map.values()); // bu valuelarini chiqirib beradi bu ham console.log()ni ichida yoziladi bu objectda bor edi
 // console.log(map.entries()); // bu har bitta key valueni bitta aray qavsiga solib chiqirb beradi bu ham objectda vbor edi
 // map.set({}, "salom") // mapda keyin key sifatida oobjectni ishlatsak boladi lekin objectda bu xususiyat yuq edi
 // console.log(map);
 
 // for/of foreach map//////////////////////////////////////////////
-// Map ni biz ozi objectga oxshatdik lekin objectda for/of,forEach degan arrayni atributi ishlaydi map da ishlaydi lekin bu objectda ishlamaydi
+// Map ni biz ozi mapni objectga oxshatdik lekin objectda for/of,forEach degan arrayni atributi ishlamaydi map da ishlaydi lekin bu objectda ishlamaydi
 // for(let string of map){
 //     console.log(string);
 // } // Bu xolatda ishlaydi map, lekin object ishlamaydi
