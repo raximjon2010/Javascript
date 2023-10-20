@@ -1,0 +1,184 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgb(25, 13, 94);
+    overflow-y: auto;
+
+}
+.container_title {
+    position: relative;
+    top: 100px;
+    font-size: 40px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container_title_text_one {
+    color: green;
+}
+.container_title_text_two{
+    color: white;
+    position: relative;
+    left: 150px;
+}
+.table_container{
+    width: 80%;
+    height: 80%;
+    background-color: wheat;
+
+    position: relative;
+    left: 130px;
+    top: 130px;
+}
+
+.table_container_title{
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+
+    padding-top: 50px;
+}
+.table_container_title input {
+    position: relative;
+    left: 150px;
+    top: 15px;
+
+    width: 170px;
+    height: 30px;
+
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+.table_container_title input :active {
+    border-bottom: 2px solid blue;
+}
+.table_container_Adding{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 50px;
+}
+.table_container_Adding input {
+    width: 250px;
+    height: 35px;
+
+    outline: none;
+    border: none;
+
+    border-bottom: 2px solid blue;
+    border-radius: 5px;
+}
+.table_container_Adding button {
+    width: 60px;
+    height: 35px;
+
+    background-color: green;
+    color: white;
+
+    border-radius: 7px;
+}
+
+.table_Menu{
+    width: 70%;
+    height: 50px;
+    background-color: green;
+    color: wheat;
+
+   position: relative;
+   left: 158px;
+   top: 70px;
+
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.table_menu_data{
+    display: flex;
+    justify-content: space-around;
+}
+
+.table_menu_data_id{
+    width: 110px;
+    height: 30px;
+    color: black;
+
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table_menu_data_name{
+    width: 160px;
+    height: 30px;
+    color: black;
+
+    position: relative;
+    top: 100px;
+    left: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table_menu_data_email{
+    width: 190px;
+    height: 30px;
+    color: black;
+
+    position: relative;
+    top: 100px;
+    right: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.table_menu_data_Action{
+    width: 160px;
+    height: 50px;
+    color: black;
+
+    position: relative;
+    top: 87px;
+    right: 110px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.table_menu_data_Action .first {
+    width: 60px;
+    height: 35px;
+
+    background-color: yellow;
+    color: white;
+
+    border-radius: 7px;
+}
+.table_menu_data_Action .las {
+    width: 60px;
+    height: 35px;
+
+    background-color: red;
+    color: white;
+
+    border-radius: 7px;
+}

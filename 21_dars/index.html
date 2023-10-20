@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <script src="./Todo_list.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>DOM</title>
+</head>
+<body>
+<div class="container">
+    <div class="container_title">
+        <h1 class="container_title_text_one">Javascript Aplicition <br> <span class="container_title_text_two">     in Javascript</span></h1>
+    </div>
+    <div class="table_container">
+        <div class="table_container_title">
+            <h1>CRUD Operations</h1>
+            <input type="search" placeholder="Search">;
+        </div>
+
+        <div class="table_container_Adding">
+            <input class="textInput" maxlength="10" required type="text" placeholder="name">
+            <pre>   </pre>
+            <input type="email" placeholder="email">
+            <pre>   </pre>
+            <button class="Add_button">Add</button>
+            <button style="display: none;" class="Save_button">Save</button>
+        </div>
+        <div class="table_Menu">
+            <div class="table_Menu_id">
+                <p>ID</p>
+            </div>
+            <div class="table_Menu_name">
+                <p>NAME</p>
+            </div>
+            <div class="table_Menu_email">
+                <p>EMAIL</p>
+            </div>
+            <div class="table_Menu_Action">
+                <p>Action</p>
+            </div>
+        </div>
+        <div class="table_menu_data">
+            <div class="table_menu_data_id">1</div>
+            <div class="table_menu_data_name"></div>
+            <div class="table_menu_data_email"></div>
+            <div class="table_menu_data_Action">
+                <button class="first">Edit</button>
+                <button class="las">Delete</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
